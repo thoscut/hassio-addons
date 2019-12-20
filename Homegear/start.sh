@@ -35,5 +35,4 @@ if ! [ -f /etc/homegear/dh1024.pem ]; then
 fi
 
 service homegear start
-service homegear-influxdb start
 tail -f /var/log/homegear/homegear.log
