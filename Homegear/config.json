@@ -31,6 +31,6 @@
   },
   "devices": [
     "/dev/bus/usb:/dev/bus/usb:rwm",
-    "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A95O5AFY-if00-port0:/dev/ttyUSB0:rwm"
+    "/dev/ttyAMA0:/dev/ttyUSB0:rwm"
   ]
 }
