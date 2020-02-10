@@ -18,6 +18,8 @@ RUN apt-get update && apt-get -y install apt-transport-https \
 
 RUN apt-get update && apt-get -y install \
     homegear \
+    homegear-management \
+    homegear-adminui \
     homegear-nodes-core \
     homegear-nodes-extra \
     homegear-max \
