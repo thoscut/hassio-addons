@@ -5,7 +5,7 @@
   "description": "Homegear as a Hassio add-on",
   "startup": "before",
   "boot": "auto",  
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:2001]/admin",
+  "webui": "[PROTO:http]://[HOST]:[PORT:2001]/admin",
   "ingress": true,
   "ingress_port": 2001,
   "gpio": true,
